@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from './images/fwb.svg';
 
 const App = () => {
   return (
@@ -184,7 +185,7 @@ const App = () => {
             </div>
             <div className='home-top'>
               <div className='home-top-logo'>
-                <img src='images/fwb.svg' alt='FWB' className='w-full' />
+                <img src={Logo} alt='FWB' className='w-full' />
               </div>
               <div className='hidden lg:flex justify-center items-center w-1/4 pl-4'>
                 <button className='join--button'>JOIN</button>
@@ -260,9 +261,7 @@ const App = () => {
                 </div>
               </div>
               <div>
-                <div
-                  className=''
-                  style={{ transform: 'rotate(5deg) translateZ(0px)' }}>
+                <div className=''>
                   <div className='bg-black text-white rounded-lg p-4 mb-8 relative'>
                     <div className='font-medium text-3xl md:text-4xl uppercase'>
                       Join
@@ -294,9 +293,7 @@ const App = () => {
                 </div>
               </div>
               <div>
-                <div
-                  className=''
-                  style={{ transform: 'rotate(5deg) translateZ(0px)' }}>
+                <div className=''>
                   <div className='bg-black text-white rounded-lg p-4 mb-8 relative'>
                     <div className='font-medium text-3xl md:text-4xl uppercase'>
                       Opportunities
@@ -329,9 +326,7 @@ const App = () => {
                 </div>
               </div>
               <div>
-                <div
-                  className=''
-                  style={{ transform: 'rotate(5deg) translateZ(0px)' }}>
+                <div className=''>
                   <div className='bg-black text-white rounded-lg p-4 mb-8 relative'>
                     <div className='home-locked'>
                       <div>75 $FWB</div>
@@ -371,9 +366,7 @@ const App = () => {
                 </div>
               </div>
               <div>
-                <div
-                  className=''
-                  style={{ transform: 'rotate(5deg) translateZ(0px)' }}>
+                <div className=''>
                   <div className='bg-black text-white rounded-lg p-4 mb-8 relative'>
                     <div className='font-medium text-3xl md:text-4xl uppercase'>
                       Works in Progress
@@ -407,9 +400,7 @@ const App = () => {
                 </div>
               </div>
               <div>
-                <div
-                  className=''
-                  style={{ transform: 'rotate(5deg) translateZ(0px)' }}>
+                <div className=''>
                   <div className='bg-black text-white rounded-lg p-4 mb-8 relative'>
                     <div className='home-locked'>
                       <div>5 $FWB</div>
@@ -444,9 +435,7 @@ const App = () => {
                 </div>
               </div>
               <div>
-                <div
-                  className=''
-                  style={{ transform: 'rotate(5deg) translateZ(0px)' }}>
+                <div>
                   <div className='bg-black text-white rounded-lg p-4 mb-8 relative'>
                     <div className='font-medium text-3xl md:text-4xl uppercase'>
                       Press
@@ -539,9 +528,7 @@ const App = () => {
                 </div>
               </div>
               <div>
-                <div
-                  className=''
-                  style={{ transform: 'rotate(5deg) translateZ(0px)' }}>
+                <div className=''>
                   <div className='bg-black-alpha text-white rounded-lg p-4 mb-8 relative'>
                     <div className='font-medium text-3xl md:text-4xl uppercase' />
                     <div className='null uppercase py-4'>
